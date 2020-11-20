@@ -8,6 +8,7 @@ This radar app shows "covid trace" beacons transmitted around you.
 The distance from the centre are related to the strength of the received signal.
 
 THESE ARE NOT infections but people that have the corona alert app installed.
+Also the visualisation is intended to look good not to show the location of other people.
 
 Works with the standard BLE Arduino lib that is installed with Arduino 1.9.
 
