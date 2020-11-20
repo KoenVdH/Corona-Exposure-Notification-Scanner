@@ -1,6 +1,8 @@
 # Corona-Exposure-Notification-Scanner
 
-https://github.com/KoenVdH/Corona-Exposure-Notification-Scanner/blob/main/screen.jpg
+![Scan](https://github.com/KoenVdH/Corona-Exposure-Notification-Scanner/blob/main/screen.jpg)
+
+M5STACK ESP32 Arduino
 
 This radar app shows "covid trace" beacons transmitted around you.
 The distance from the centre are related to the strength of the received signal.
