@@ -1,6 +1,6 @@
 # Corona-Exposure-Notification-Scanner
 
-![Scan](https://github.com/KoenVdH/Corona-Exposure-Notification-Scanner/blob/main/screen.jpg)
+![Scan](https://github.com/KoenVdH/Corona-Exposure-Notification-Scanner/blob/main/screen3.jpg)
 
 M5STACK ESP32 Arduino
 
