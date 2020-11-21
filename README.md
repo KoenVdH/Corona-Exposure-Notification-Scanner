@@ -15,3 +15,5 @@ Works with the standard BLE Arduino lib that is installed with Arduino 1.9.
 https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-BluetoothSpecificationv1.2.pdf?1
 
 Versions 2 and 3 other visualisations. I try to make it look as cool as possible :-)
+Known issues: 
+Crash when to much input. e.g. when used in places with lots of people...
