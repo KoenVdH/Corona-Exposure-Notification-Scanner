@@ -5,7 +5,7 @@
 M5STACK ESP32 Arduino
 
 This radar app shows "covid trace" beacons transmitted around you.
-The distance from the centre are related to the strength of the received signal.
+The circle distances from the centre are related to the strength of the received signals.
 
 THESE ARE NOT infections but people that have the corona alert app installed.
 Also the visualisation is intended to look good not to show the location of other people.
@@ -18,4 +18,4 @@ Versions 2 and 3 other visualisations. I try to make it look as cool as possible
 
 Known issues: 
 
-Crash when to much input. e.g. when used in places with lots of people...
+Crash when receiving too much input. E.g. when used in places with lots of people...
