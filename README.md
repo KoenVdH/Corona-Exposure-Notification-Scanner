@@ -17,8 +17,6 @@ https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact
 
 Versions 2 and 3 other visualisations. I try to make it look as cool as possible :-)
 
-Known issues for exposure_scanner2.ino and exposure_scanner.ino: 
+Known issue for exposure_scanner2.ino and exposure_scanner3.ino: crash when receiving too much input.
 
-Crash when receiving too much input. E.g. when used in places with lots of people...
-
-exposure_scanner4.ino has less serial port monitoring, works better with lots of incomming packets.
+exposure_scanner4.ino has less serial port monitoring, works better with lots of incomming packets (people around you).
