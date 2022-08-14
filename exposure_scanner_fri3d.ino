@@ -163,7 +163,7 @@ void setup() {
 
 void loop() { 
   // clear left side of the screen
-  tft.fillRect(0, 0, 30, 30, ST77XX_BLACK);
+  tft.fillRect(0, 0, 44, 30, ST77XX_BLACK);
 
   // count the number of unique participants (simplification)
   numberofParticipants = 0;
@@ -181,6 +181,7 @@ void loop() {
   tft.setTextSize(4);
   tft.setCursor(0,0);
   tft.printf("%d", numberofParticipants); 
+  //tft.printf("22");
   
   BLEScanResults foundDevices = pBLEScan->start(scanTime, false);
   Serial.print("Devices found: ");
