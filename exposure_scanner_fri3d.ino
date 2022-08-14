@@ -163,8 +163,7 @@ void setup() {
 
 void loop() { 
   // clear left side of the screen
-  tft.fillRect(0, 0, 20, 20, ST77XX_BLACK);
-  tft.setTextSize(2);
+  tft.fillRect(0, 0, 30, 30, ST77XX_BLACK);
 
   // count the number of unique participants (simplification)
   numberofParticipants = 0;
@@ -180,7 +179,7 @@ void loop() {
   }
   
   tft.setTextSize(4);
-  tft.setCursor(0,10);
+  tft.setCursor(0,0);
   tft.printf("%d", numberofParticipants); 
   
   BLEScanResults foundDevices = pBLEScan->start(scanTime, false);
